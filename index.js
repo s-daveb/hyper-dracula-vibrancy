@@ -2,10 +2,10 @@
 
 module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
 
-const backgroundColor = 'rgba(40,42,54,0.80)';
+const backgroundColor = 'rgba(40,42,54,.80)';
 const foregroundColor = '#f8f8f2';
 const borderColor = '#44475a';
-const cursorColor = 'f8f8f2';
+const cursorColor = '#f8f8f2';
 const colors = {
   black: '#000000',
   red: '#ff5555',
@@ -14,7 +14,7 @@ const colors = {
   blue: '#bd93f9',
   magenta: '#ff79c6',
   cyan: '#8be9fd',
-  white: 'bfbfbf',
+  white: '#bfbfbf',
   lightBlack: '#8e8e8e',
   lightRed: '#ff6e67',
   lightGreen: '#5af78e',
