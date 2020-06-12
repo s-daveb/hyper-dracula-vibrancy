@@ -38,7 +38,7 @@ exports.decorateConfig = config => {
     css: `
 			${config.css || ''}
 			.tabs_list .tab_tab.tab_active .tab_text  {
-				background: ${backgroundColor};
+				background-color: ${backgroundColor};
 			}
 
 			.tab_active:before {
