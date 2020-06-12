@@ -2,7 +2,7 @@
 
 module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
 
-const backgroundColor = 'rgba(40,42,54,0.5)';
+const backgroundColor = 'rgba(40,42,54,0.75)';
 const foregroundColor = '#f8f8f2';
 const borderColor = '#44475a';
 const cursorColor = 'f8f8f2';
@@ -38,7 +38,7 @@ exports.decorateConfig = config => {
     css: `
 			${config.css || ''}
 			.tabs_list .tab_tab.tab_active .tab_text  {
-				background-color: ${backgroundColor};
+				background: ${backgroundColor};
 			}
 
 			.tab_active:before {
